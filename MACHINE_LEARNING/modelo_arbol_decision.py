@@ -57,7 +57,7 @@ def guardar_resultados(modelo, X_prueba, y_prueba, predicciones, codificador):
     """Guarda reporte de precisión y gráfico del árbol en carpeta de resultados."""
     print("[3/3] Guardando resultados del modelo...")
 
-    carpeta_resultados = "MACHINE_LERANING"
+    carpeta_resultados = "MACHINE_LEARNING"
     os.makedirs(carpeta_resultados, exist_ok=True)
 
     reporte_texto = classification_report(
