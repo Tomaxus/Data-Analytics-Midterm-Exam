@@ -77,6 +77,7 @@ def guardar_resultados(modelo, X_prueba, y_prueba, predicciones, codificador):
         for indice, etiqueta in enumerate(codificador.classes_):
             archivo_reporte.write(f"{indice}: {etiqueta}\n")
 
+
     plt.figure(figsize=(18, 10))
     plot_tree(
         modelo,
